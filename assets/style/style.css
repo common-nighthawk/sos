@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'Gotham Rounded';
+  src: url("../fonts/gotham-rounded/GothamRnd-Medium.otf") format("opentype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gotham Rounded';
+  font-weight: bold;
+  src: url("../fonts/gotham-rounded/GothamRnd-Bold.otf") format("opentype");
+  font-display: swap;
+}
+
+body {
+  font-family: 'Gotham Rounded', 'Roboto', sans-serif;
+  font-size: 1.5em;
+}
+
+img {
+  display: block;
+  margin: 80px auto 50px auto;
+  width: 240px;
+}
+
+.main {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.blue { color: #0C223F; }
+.gray { color: #999999; }
+.red { color: #DB4437; }
+
+.upcase { text-transform: uppercase; }
+.downcase { text-transform: lowercase; }
+a { text-decoration: none; }
+a:link { color: #0C223F; }
+a:visited { color: #0C223F; }
+a:hover { color: #0C223F; }
+a:active { color: #0C223F; }
+
+.blow-quote {
+  font-size: 4em;
+  margin-bottom: 60px;
+}
+
+.blow-quote p:nth-of-type(2) { line-height: 40%; }
+
+.red p, .blue p, .grey p { margin: 0; }
+.contact-info { margin-bottom: 16px; }
+.last { margin-bottom: 40px; }
+
+p#mini-header {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+span {
+  font-weight: bold;
+  font-size: 1.05em;
+  margin-right: 6px;
+}
+
+@media (max-width: 992px) {
+  .blow-quote {
+    font-size: 3em;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .blow-quote {
+    font-size: 2em;
+    margin-bottom: 40px;
+  }
+}
